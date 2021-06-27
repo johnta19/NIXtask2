@@ -1,9 +1,9 @@
 package com.Alevel;
 
 public class InsertionSort {
-    public int[] array;
+    public String[] array;
 
-    public InsertionSort(int... array) {
+    public InsertionSort(String... array) {
         this.array = array;
     }
 

@@ -3,12 +3,12 @@ package com.Alevel;
 import java.util.Arrays;
 
 public class StringArray {
-    public int[] myArr;
-    public StringArray(int... myArr){
+    public String[] myArr;
+    public StringArray(String... myArr){
         this.myArr = myArr;
     }
 
-    public void printArray(int[]k){
+    public void printArray(String[]k){
         System.out.println(Arrays.toString(k));
     }
 }
